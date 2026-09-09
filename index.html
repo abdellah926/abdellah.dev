@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdellah | Portfolio - Apple Liquid Glass</title>
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Vanilla Tilt -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Orbs -->
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <div class="noise-overlay"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Navbar -->
+  <header class="nav-wrapper">
+    <nav class="nav-bar">
+      <a href="#hero" class="nav-brand">ABDELLAH.DEV</a>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="glass-panel hero-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.15">
+        
+        <div class="badge-pill">
+          <span class="badge-dot"></span>
+          Available for Opportunities & Projects
+        </div>
+
+        <div class="avatar-wrapper">
+          <div class="avatar-glow-ring"></div>
+          <div class="avatar-img-container">
+            <img src="profile-placeholder.jpg" 
+                 alt="Abdellah" 
+                 class="avatar-img"
+                 onerror="this.src='profile-placeholder.jpg.png';">
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          HI, <span class="gradient-span">I'M ABDELLAH</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          A passionate Frontend Developer, high-impact digital experiences.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#journey" class="btn-liquid btn-liquid-primary">
+            <span>Explore My Journey</span>
+            <i data-lucide="arrow-down" style="width: 18px; height: 18px;"></i>
+          </a>
+          <a href="#contact" class="btn-liquid btn-liquid-secondary">
+            <span>Get in Touch</span>
+            <i data-lucide="send" style="width: 16px; height: 16px;"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MY JOURNEY / ROADMAP -->
+  <section id="journey" class="timeline-section">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">Evolution & Milestones</span>
+        <h2 class="section-title">My Coding Journey</h2>
+      </div>
+
+      <div class="timeline-container">
+        <div class="timeline-spine">
+          <div class="timeline-spine-glow" id="spineGlow"></div>
+        </div>
+
+        <!-- Node 1 -->
+        <div class="timeline-node left" data-node="1">
+          <div class="node-anchor">
+            <i data-lucide="sparkles" style="width: 20px; height: 20px;"></i>
+          </div>
+          <div class="glass-panel roadmap-card" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+            <div class="card-step-badge">Phase 01 • 3 Years Ago</div>
+            <h3 class="card-title">Started my coding journey 3 years ago</h3>
+            <p class="card-desc">
+              Took my first step into computer science and web development. Sparked by curiosity, I fell in love with how a few lines of code could come alive on screen.
+            </p>
+          </div>
+        </div>
+
+        <!-- Node 2 -->
+        <div class="timeline-node right" data-node="2">
+          <div class="node-anchor">
+            <i data-lucide="code" style="width: 20px; height: 20px;"></i>
+          </div>
+          <div class="glass-panel roadmap-card" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+            <div class="card-step-badge">Phase 02 • Foundations</div>
+            <h3 class="card-title">Learned HTML, CSS, and JavaScript Basics</h3>
+            <p class="card-desc">
+              Mastered foundational web technologies, started building interactive websites from scratch, and embraced modern version control by pushing every project to GitHub.
+            </p>
+          </div>
+        </div>
+
+        <!-- Node 3 -->
+        <div class="timeline-node left" data-node="3">
+          <div class="node-anchor">
+            <i data-lucide="award" style="width: 20px; height: 20px;"></i>
+          </div>
+          <div class="glass-panel roadmap-card" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+            <div class="card-step-badge">Phase 03 • Certification</div>
+            <h3 class="card-title">Joined a Professional Training Center</h3>
+            <p class="card-desc">
+              Enrolled in rigorous, industry-guided training to level up my technical skill set, best practices, and collaborative workflows, successfully earning my official certification.
+            </p>
+            <div class="card-media-box">
+              <img src="certificate.jpg" 
+                   alt="Certificate"
+                   onerror="this.src='certificate.jpeg';">
+              <div class="card-media-overlay"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Node 4 -->
+        <div class="timeline-node right" data-node="4">
+          <div class="node-anchor">
+            <i data-lucide="trending-up" style="width: 20px; height: 20px;"></i>
+          </div>
+          <div class="glass-panel roadmap-card" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+            <div class="card-step-badge">Phase 04 • Growth</div>
+            <h3 class="card-title">Continuous Project Building & Advanced Layouts</h3>
+            <p class="card-desc">
+              Continuously engineered and polished websites, evolving from basic static layouts to responsive, high-performance, and animation-rich modern interfaces.
+            </p>
+          </div>
+        </div>
+
+        <!-- Node 5 -->
+        <div class="timeline-node left" data-node="5">
+          <div class="node-anchor">
+            <i data-lucide="terminal" style="width: 20px; height: 20px;"></i>
+          </div>
+          <div class="glass-panel roadmap-card" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+            <div class="card-step-badge">Phase 05 • System Mastery</div>
+            <h3 class="card-title">Dived into Linux and Python</h3>
+            <p class="card-desc">
+              Expanded my horizons this year by mastering Unix environments, terminal productivity, and Python scripting to build automation pipelines and professionalize my workflow.
+            </p>
+          </div>
+        </div>
+
+        <!-- Node 6 -->
+        <div class="timeline-node right" data-node="6">
+          <div class="node-anchor">
+            <i data-lucide="bot" style="width: 20px; height: 20px;"></i>
+          </div>
+          <div class="glass-panel roadmap-card" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+            <div class="card-step-badge">Phase 06 • AI Innovation</div>
+            <h3 class="card-title">Built an AI Bot using Google Gemini</h3>
+            <p class="card-desc">
+              Harnessed Google Gemini API to create an intelligent assistant that automatically generates, curates, and delivers bite-sized daily Python lessons.
+            </p>
+            <a href="https://benka02.gumroad.com/l/azrryg" target="_blank" rel="noopener noreferrer" class="card-action-btn">
+              <i data-lucide="github" style="width: 16px; height: 16px;"></i>
+              <span>Link to Code</span>
+              <i data-lucide="external-link" style="width: 14px; height: 14px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Node 7 -->
+        <div class="timeline-node left" data-node="7">
+          <div class="node-anchor">
+            <i data-lucide="palette" style="width: 20px; height: 20px;"></i>
+          </div>
+          <div class="glass-panel roadmap-card" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+            <div class="card-step-badge">Phase 07 • UI/UX & Visual Art</div>
+            <h3 class="card-title">Mastered UI Design with Canva & Canva AI</h3>
+            <p class="card-desc">
+              Integrated modern design principles with Canva AI tools to produce captivating brand identities, wireframes, and striking visual aesthetics.
+            </p>
+            <div class="card-media-box">
+              <img src="design-work.png" 
+                   alt="Designs"
+                   onerror="this.src='design-work..png';">
+              <div class="card-media-overlay"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="glass-panel contact-card" data-tilt data-tilt-max="6" data-tilt-glare data-tilt-max-glare="0.15">
+        
+        <span class="section-tag" style="display:inline-block; margin-bottom: 14px;">Let's Connect</span>
+        <h2 class="contact-title">
+          Looking to work with someone creative and dedicated?
+        </h2>
+        
+        <p class="contact-subtitle">
+          "Let's build something amazing together!"
+        </p>
+
+        <div class="contact-btn-grid">
+          <a href="mailto:abdellahbenka05@gmail.com" class="glass-btn-contact">
+            <i data-lucide="mail" style="color: var(--neon-cyan);"></i>
+            <span>abdellahbenka05@gmail.com</span>
+          </a>
+
+          <a href="https://github.com/abdellah926" target="_blank" rel="noopener noreferrer" class="glass-btn-contact">
+            <i data-lucide="github" style="color: var(--neon-purple);"></i>
+            <span>github.com/abdellah</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Abdellah. Crafted with Apple Liquid Glass aesthetic.</p>
+    </div>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
