@@ -357,6 +357,23 @@ body {
   transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+.btn-liquid-call {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.22) 0%, rgba(157, 78, 221, 0.22) 100%);
+  color: #fff;
+  border: 1px solid rgba(0, 240, 255, 0.45);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.2),
+              inset 0 1px 1px rgba(255, 255, 255, 0.4);
+}
+
+.btn-liquid-call:hover {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.4) 0%, rgba(157, 78, 221, 0.4) 100%);
+  border-color: var(--neon-cyan);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 240, 255, 0.4),
+              0 0 25px rgba(157, 78, 221, 0.3);
+}
+
 .btn-liquid-primary {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
   color: #fff;
@@ -640,6 +657,18 @@ body {
   -webkit-backdrop-filter: blur(16px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-btn-featured {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.18) 0%, rgba(157, 78, 221, 0.18) 100%);
+  border-color: rgba(0, 240, 255, 0.4);
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.2);
+}
+
+.glass-btn-featured:hover {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.35) 0%, rgba(157, 78, 221, 0.35) 100%);
+  border-color: var(--neon-cyan);
+  box-shadow: 0 15px 35px rgba(0, 240, 255, 0.35);
 }
 
 .glass-btn-contact:hover {
