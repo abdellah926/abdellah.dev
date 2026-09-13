@@ -283,6 +283,15 @@
   <script src="script.js"></script>
 
   <!-- AI Chatbot (imfa.app) -->
-  <script src="https://www.imfa.app/embed/chatbot/loader.js" data-chatbot="wcrs4bz1" async></script>
+ <iframe id="myFrame" src="https://www.imfa.app/embed/chatbot/loader.js"></iframe>
+<script>
+document.getElementById('myFrame').addEventListener('load', function() {
+if (!this.contentDocument) {
+console.error("iframe failed to load");
+} else {
+console.log("iframe loaded successfully");
+}
+});
+</script>
 </body>
 </html>
