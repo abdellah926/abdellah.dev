@@ -1,4 +1,4 @@
-﻿/* ==========================================================
+/* ==========================================================
    THEME TOKENS: AMBER GOLD / CRIMSON RED / DEEP BURGUNDY / BLACK & WHITE
    ========================================================== */
 :root {
@@ -572,24 +572,212 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
+.zoomable-box {
+  cursor: zoom-in;
+  transition: border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.zoomable-box:hover {
+  border-color: rgba(245, 158, 11, 0.6);
+  box-shadow: 0 15px 40px rgba(245, 158, 11, 0.25);
+}
+
 .card-media-box img {
   width: 100%;
   max-height: 260px;
   object-fit: cover;
   object-position: center top;
   display: block;
-  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
 }
 
-.roadmap-card:hover .card-media-box img {
-  transform: scale(1.03);
+.zoomable-box:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+}
+
+.zoom-indicator {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(6, 3, 4, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease, background 0.3s ease;
+}
+
+.zoom-indicator svg {
+  width: 14px;
+  height: 14px;
+  color: var(--color-gold-bright);
+}
+
+.zoomable-box:hover .zoom-indicator {
+  opacity: 1;
+  transform: translateY(-2px);
+  background: rgba(245, 158, 11, 0.3);
+  border-color: var(--color-gold-bright);
 }
 
 .card-media-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 50%, rgba(6, 3, 4, 0.85) 100%);
+  background: linear-gradient(180deg, transparent 40%, rgba(6, 3, 4, 0.85) 100%);
   pointer-events: none;
+}
+
+/* ==========================================================
+   LIGHTBOX MODAL & KEYFRAME ANIMATIONS (FOCUS ZOOM)
+   ========================================================== */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.4s ease;
+}
+
+.lightbox-overlay.active {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(4, 2, 3, 0.88);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  cursor: zoom-out;
+}
+
+.lightbox-content {
+  position: relative;
+  z-index: 2;
+  max-width: 90vw;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lightbox-overlay.active .lightbox-content {
+  animation: lightboxZoomIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.lightbox-overlay.closing .lightbox-content {
+  animation: lightboxZoomOut 0.35s cubic-bezier(0.7, 0, 0.84, 0) forwards;
+}
+
+@keyframes lightboxZoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.75) translateY(30px);
+    filter: blur(12px);
+  }
+  50% {
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: blur(0px);
+  }
+}
+
+@keyframes lightboxZoomOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+}
+
+.lightbox-close {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(20, 6, 8, 0.85);
+  border: 1px solid rgba(245, 158, 11, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6),
+              0 0 15px rgba(245, 158, 11, 0.3);
+  transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+}
+
+.lightbox-close svg {
+  width: 20px;
+  height: 20px;
+}
+
+.lightbox-close:hover {
+  transform: rotate(90deg) scale(1.1);
+  background: rgba(220, 38, 38, 0.6);
+  border-color: #ef4444;
+}
+
+.lightbox-img-wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.9),
+              0 0 40px rgba(245, 158, 11, 0.25);
+  background: #000;
+  max-width: 100%;
+  max-height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-img-wrapper img {
+  width: auto;
+  height: auto;
+  max-width: 85vw;
+  max-height: 74vh;
+  object-fit: contain;
+  display: block;
+}
+
+.lightbox-caption {
+  margin-top: 14px;
+  color: var(--color-gold-bright);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
 }
 
 .card-action-btn {

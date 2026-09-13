@@ -60,7 +60,7 @@
         <div class="avatar-wrapper">
           <div class="avatar-glow-ring"></div>
           <div class="avatar-img-container">
-            <img src="orange black simple modern minimalist logo3.png" 
+            <img src="1.png" 
                  alt="Abdellah" 
                  class="avatar-img"
                  onerror="this.src='Company Logo';">
@@ -146,10 +146,15 @@ After God willing, I mastered the core web development languages: HTML, CSS, and
             <h3 class="card-title">Joined a Professional Training Center</h3>
             <p class="card-desc">
 It was a good start with an educational center and it was great for me, even though information is available on the web, but we always need good mentors to guide us and show us the correct way, because the field's studies are ongoing in learning, and for this reason I recommend it.            </p>
-            <div class="card-media-box">
+            <div class="card-media-box zoomable-box" title="Click to view full image">
               <img src="certificate.jpg" 
                    alt="Certificate"
+                   class="lightbox-trigger"
                    onerror="this.src='certificate.jpeg';">
+              <div class="zoom-indicator">
+                <i data-lucide="maximize-2"></i>
+                <span>Click to expand</span>
+              </div>
               <div class="card-media-overlay"></div>
             </div>
           </div>
@@ -201,10 +206,15 @@ After this complete knowledge, didn't I search and learn the new technology? AI 
             <p class="card-desc">
               Parallel to this web development, there was something else which is design, that's why I lean a lot towards front-end, I really like design. Because of that, I learned design not in a pro application, but Canva gets the job done and a lot, especially nowadays I can create with it and with the help of AI to fix some mistakes I make that are hard for me to fix by hand. And first, it's limited because Canva, although it's cool, is limited in some things, but with AI, Canva is a technology. AI, people should benefit from them, not consider AI tools as replacing someone who knows nothing, but on the contrary, you must benefit from them because they are the future.
             </p>
-            <div class="card-media-box">
+            <div class="card-media-box zoomable-box" title="Click to view full image">
               <img src="design-work.png" 
                    alt="Designs"
+                   class="lightbox-trigger"
                    onerror="this.src='design-work..png';">
+              <div class="zoom-indicator">
+                <i data-lucide="maximize-2"></i>
+                <span>Click to expand</span>
+              </div>
               <div class="card-media-overlay"></div>
             </div>
             <a href="https://www.behance.net/gallery/255534455/Apple-Liquid-Glass-UIUX-Portfolio-Brand-Identity" target="_blank" rel="noopener noreferrer" class="card-action-btn">
@@ -255,6 +265,20 @@ After this complete knowledge, didn't I search and learn the new technology? AI 
       </div>
     </div>
   </section>
+
+  <!-- Lightbox Modal (Apple Liquid Glass Focus View) -->
+  <div id="imageLightbox" class="lightbox-overlay" aria-hidden="true">
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close image">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="lightbox-img-wrapper">
+        <img id="lightboxImage" src="" alt="Enlarged view">
+      </div>
+      <p id="lightboxCaption" class="lightbox-caption"></p>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="site-footer">

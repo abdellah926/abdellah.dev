@@ -1,4 +1,4 @@
-﻿// 1. Initialize Lucide Icons
+// 1. Initialize Lucide Icons
 if (typeof lucide !== 'undefined') {
   lucide.createIcons();
 }
@@ -105,4 +105,55 @@ document.addEventListener('DOMContentLoaded', () => {
       perspective: 1200
     });
   }
+
+  // 5. Image Lightbox (Keyframe Zoom Focus)
+  const lightbox = document.getElementById('imageLightbox');
+  const lightboxImg = document.getElementById('lightboxImage');
+  const lightboxCaption = document.getElementById('lightboxCaption');
+  const lightboxClose = document.getElementById('lightboxClose');
+  const lightboxBackdrop = document.querySelector('.lightbox-backdrop');
+
+  function openLightbox(imgSrc, captionText) {
+    if (!lightbox || !lightboxImg) return;
+    lightboxImg.src = imgSrc;
+    lightboxCaption.textContent = captionText || '';
+    lightbox.classList.remove('closing');
+    lightbox.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    if (!lightbox || !lightbox.classList.contains('active')) return;
+    lightbox.classList.add('closing');
+    setTimeout(() => {
+      lightbox.classList.remove('active');
+      lightbox.classList.remove('closing');
+      lightboxImg.src = '';
+      document.body.style.overflow = '';
+    }, 320);
+  }
+
+  // Click on zoomable box or image
+  document.querySelectorAll('.zoomable-box').forEach(box => {
+    box.addEventListener('click', () => {
+      const img = box.querySelector('img');
+      if (img) {
+        openLightbox(img.currentSrc || img.src, img.alt);
+      }
+    });
+  });
+
+  if (lightboxClose) {
+    lightboxClose.addEventListener('click', closeLightbox);
+  }
+
+  if (lightboxBackdrop) {
+    lightboxBackdrop.addEventListener('click', closeLightbox);
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeLightbox();
+    }
+  });
 });
