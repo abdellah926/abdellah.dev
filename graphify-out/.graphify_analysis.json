@@ -1,0 +1,129 @@
+{
+  "communities": {
+    "0": [
+      "index_abdellah_portfolio",
+      "index_canva_ui_design",
+      "index_coding_journey",
+      "index_contact_methods",
+      "index_frontend_developer",
+      "index_google_gemini_ai_bot",
+      "index_image_lightbox",
+      "index_web_development_foundations",
+      "index_whatsapp_contact"
+    ],
+    "1": [
+      "certificate_abdellah_benkaddour",
+      "certificate_algorithmics",
+      "certificate_css_basics",
+      "certificate_frontend_developer_certificate",
+      "certificate_html_basics",
+      "certificate_javascript",
+      "certificate_project_work",
+      "certificate_version_control_system"
+    ],
+    "2": [
+      "abo_imrane_store",
+      "ai_monogram",
+      "design_work",
+      "lifestyle",
+      "sneakers",
+      "streetwear"
+    ],
+    "3": [
+      "script",
+      "script_closelightbox",
+      "script_cursorglow",
+      "script_openlightbox"
+    ],
+    "4": [
+      "1_orange_abstract_emblem",
+      "1_tech_brand_logo",
+      "1_tech_wordmark"
+    ],
+    "5": [
+      "avatar_logo_circular_frame",
+      "avatar_logo_gear",
+      "avatar_logo_terminal_prompt"
+    ],
+    "6": [
+      "abdellah_dev_ui_ux_portfolio_showcase"
+    ],
+    "7": [
+      "abo_imrane_store_branding_design"
+    ],
+    "8": [
+      "certificate_frontend_developer_abdellah_benkaddour"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2777777777777778,
+    "1": 0.25,
+    "2": 0.3333333333333333,
+    "3": 0.5,
+    "4": 0.6666666666666666,
+    "5": 0.6666666666666666,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0
+  },
+  "gods": [
+    {
+      "id": "certificate_frontend_developer_certificate",
+      "label": "Frontend Developer Certificate",
+      "degree": 7
+    },
+    {
+      "id": "abo_imrane_store",
+      "label": "Abo Imrane Store",
+      "degree": 5
+    },
+    {
+      "id": "index_coding_journey",
+      "label": "Coding Journey Timeline",
+      "degree": 4
+    },
+    {
+      "id": "index_abdellah_portfolio",
+      "label": "Abdellah Portfolio",
+      "degree": 3
+    },
+    {
+      "id": "index_frontend_developer",
+      "label": "Frontend Developer",
+      "degree": 3
+    },
+    {
+      "id": "index_canva_ui_design",
+      "label": "Canva UI Design",
+      "degree": 3
+    },
+    {
+      "id": "1_tech_brand_logo",
+      "label": "Tech Brand Logo",
+      "degree": 2
+    },
+    {
+      "id": "avatar_logo_gear",
+      "label": "Gear Emblem",
+      "degree": 2
+    },
+    {
+      "id": "index_google_gemini_ai_bot",
+      "label": "Google Gemini AI Bot",
+      "degree": 2
+    },
+    {
+      "id": "index_contact_methods",
+      "label": "Contact Methods",
+      "degree": 2
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `cursorGlow`, `Orange Abstract Emblem`, `tech Wordmark` to the rest of the system?",
+      "why": "23 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "1_tech_brand_logo",
+      "label": "Tech Brand Logo",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "1_orange_abstract_emblem",
+      "label": "Orange Abstract Emblem",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "1_tech_wordmark",
+      "label": "tech Wordmark",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "1_orange_abstract_emblem",
+      "target": "1_tech_brand_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "1_tech_wordmark",
+      "target": "1_tech_brand_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "tech_logo_composition",
+      "label": "Tech Logo Composition",
+      "nodes": [
+        "1_tech_brand_logo",
+        "1_orange_abstract_emblem",
+        "1_tech_wordmark"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

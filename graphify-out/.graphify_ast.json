@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "id": "script",
+      "label": "script.js",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "script_cursorglow",
+      "label": "cursorGlow",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "script_openlightbox",
+      "label": "openLightbox()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L116",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "script_closelightbox",
+      "label": "closeLightbox()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L125",
+      "_callable": true,
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "script",
+      "target": "script_cursorglow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "script",
+      "target": "script_openlightbox",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "script",
+      "target": "script_closelightbox",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "script",
+      "target": "script_closelightbox",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "script.js",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "script",
+      "target": "script_openlightbox",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L141",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "script",
+      "target": "script_closelightbox",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L156",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "failed_sources": [],
+  "extracted_sources": [
+    "C:\\Users\\abdou\\Downloads\\MONEY\\script.js"
+  ]
+}

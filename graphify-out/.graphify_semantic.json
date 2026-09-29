@@ -1,0 +1,713 @@
+{
+  "nodes": [
+    {
+      "id": "1_tech_brand_logo",
+      "label": "Tech Brand Logo",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "1_orange_abstract_emblem",
+      "label": "Orange Abstract Emblem",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "1_tech_wordmark",
+      "label": "tech Wordmark",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "avatar_logo_terminal_prompt",
+      "label": "Terminal Prompt Symbol",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\avatar-logo.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "avatar_logo_gear",
+      "label": "Gear Emblem",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\avatar-logo.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "avatar_logo_circular_frame",
+      "label": "Circular Frame",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\avatar-logo.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "certificate_algorithmics",
+      "label": "Algorithmics",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "certificate_frontend_developer_certificate",
+      "label": "Frontend Developer Certificate",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "certificate_abdellah_benkaddour",
+      "label": "Abdellah Benkaddour",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "certificate_html_basics",
+      "label": "HTML Basics",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "certificate_css_basics",
+      "label": "CSS Basics",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "certificate_javascript",
+      "label": "JavaScript",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "certificate_project_work",
+      "label": "Project Work",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "certificate_version_control_system",
+      "label": "Version Control System",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "certificate_frontend_developer_abdellah_benkaddour",
+      "label": "Algorithmics Frontend Developer certificate awarded to Abdellah Benkaddour on 31.07.2024",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "design_work",
+      "label": "Abo Imrane Store brand photograph",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work..png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "abo_imrane_store",
+      "label": "Abo Imrane Store",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work..png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ai_monogram",
+      "label": "ai monogram logo",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work..png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sneakers",
+      "label": "Sneakers",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work..png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "streetwear",
+      "label": "Streetwear",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work..png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lifestyle",
+      "label": "Lifestyle",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work..png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "abo_imrane_store_branding_design",
+      "label": "Abo Imrane Store branding design for sneakers, streetwear, and lifestyle",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "abdellah_dev_ui_ux_portfolio_showcase",
+      "label": "Abdellah.dev UI/UX designer and developer portfolio showcase with selected projects, services, and roadmap",
+      "file_type": "image",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\portfolio_ui_ux_showcase_1788991344909.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_abdellah_portfolio",
+      "label": "Abdellah Portfolio",
+      "file_type": "document",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_frontend_developer",
+      "label": "Frontend Developer",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_coding_journey",
+      "label": "Coding Journey Timeline",
+      "file_type": "document",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_web_development_foundations",
+      "label": "HTML CSS and JavaScript Foundations",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_google_gemini_ai_bot",
+      "label": "Google Gemini AI Bot",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_canva_ui_design",
+      "label": "Canva UI Design",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_contact_methods",
+      "label": "Contact Methods",
+      "file_type": "document",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_whatsapp_contact",
+      "label": "WhatsApp Contact",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "index_image_lightbox",
+      "label": "Image Lightbox",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "1_orange_abstract_emblem",
+      "target": "1_tech_brand_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "1_tech_wordmark",
+      "target": "1_tech_brand_logo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "avatar_logo_terminal_prompt",
+      "target": "avatar_logo_gear",
+      "relation": "overlays",
+      "confidence": "high",
+      "confidence_score": 0.99,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\avatar-logo.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "avatar_logo_gear",
+      "target": "avatar_logo_circular_frame",
+      "relation": "contained_within",
+      "confidence": "high",
+      "confidence_score": 0.98,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\avatar-logo.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "certificate_frontend_developer_certificate",
+      "target": "certificate_algorithmics",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "certificate_frontend_developer_certificate",
+      "target": "certificate_abdellah_benkaddour",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "certificate_frontend_developer_certificate",
+      "target": "certificate_html_basics",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "certificate_frontend_developer_certificate",
+      "target": "certificate_css_basics",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "certificate_frontend_developer_certificate",
+      "target": "certificate_javascript",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "certificate_frontend_developer_certificate",
+      "target": "certificate_project_work",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "certificate_frontend_developer_certificate",
+      "target": "certificate_version_control_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "design_work",
+      "target": "abo_imrane_store",
+      "relation": "depicts_brand",
+      "confidence": "high",
+      "confidence_score": 0.99,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work..png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "abo_imrane_store",
+      "target": "ai_monogram",
+      "relation": "uses_logo",
+      "confidence": "high",
+      "confidence_score": 0.98,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work..png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "abo_imrane_store",
+      "target": "sneakers",
+      "relation": "offers",
+      "confidence": "high",
+      "confidence_score": 0.99,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work..png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "abo_imrane_store",
+      "target": "streetwear",
+      "relation": "offers",
+      "confidence": "high",
+      "confidence_score": 0.99,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work..png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "abo_imrane_store",
+      "target": "lifestyle",
+      "relation": "offers",
+      "confidence": "high",
+      "confidence_score": 0.99,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work..png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "design_work",
+      "target": "abo_imrane_store",
+      "relation": "depicts_brand",
+      "confidence": "high",
+      "confidence_score": 0.99,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "abo_imrane_store",
+      "target": "ai_monogram",
+      "relation": "uses_logo",
+      "confidence": "high",
+      "confidence_score": 0.98,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "abo_imrane_store",
+      "target": "sneakers",
+      "relation": "offers",
+      "confidence": "high",
+      "confidence_score": 0.99,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "abo_imrane_store",
+      "target": "streetwear",
+      "relation": "offers",
+      "confidence": "high",
+      "confidence_score": 0.99,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "abo_imrane_store",
+      "target": "lifestyle",
+      "relation": "offers",
+      "confidence": "high",
+      "confidence_score": 0.99,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\design-work.png",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "index_abdellah_portfolio",
+      "target": "index_frontend_developer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "index_abdellah_portfolio",
+      "target": "index_coding_journey",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "index_coding_journey",
+      "target": "index_web_development_foundations",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "index_coding_journey",
+      "target": "index_google_gemini_ai_bot",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "index_coding_journey",
+      "target": "index_canva_ui_design",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "index_abdellah_portfolio",
+      "target": "index_contact_methods",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "index_contact_methods",
+      "target": "index_whatsapp_contact",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "index_google_gemini_ai_bot",
+      "target": "index_frontend_developer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "index_canva_ui_design",
+      "target": "index_frontend_developer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "index_image_lightbox",
+      "target": "index_canva_ui_design",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "tech_logo_composition",
+      "label": "Tech Logo Composition",
+      "nodes": [
+        "1_tech_brand_logo",
+        "1_orange_abstract_emblem",
+        "1_tech_wordmark"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\1.png"
+    },
+    {
+      "id": "certificate_frontend_development_course_program",
+      "label": "Frontend Development Course Program",
+      "nodes": [
+        "certificate_html_basics",
+        "certificate_css_basics",
+        "certificate_javascript",
+        "certificate_project_work",
+        "certificate_version_control_system"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\certificate.jpeg"
+    },
+    {
+      "id": "coding_journey_milestones",
+      "label": "Coding Journey Milestones",
+      "nodes": [
+        "index_web_development_foundations",
+        "index_google_gemini_ai_bot",
+        "index_canva_ui_design"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\abdou\\Downloads\\MONEY\\index.html"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

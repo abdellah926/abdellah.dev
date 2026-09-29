@@ -1,0 +1,56 @@
+{
+  "script.js": {
+    "mtime": 1789596857.2115898,
+    "seen": 1789642195.987057,
+    "ast_hash": "4c1f2cac93610a75e0045ba931cdf8e3",
+    "semantic_hash": "4c1f2cac93610a75e0045ba931cdf8e3"
+  },
+  "index.html": {
+    "mtime": 1789596857.2115898,
+    "seen": 1789642195.9870656,
+    "ast_hash": "b4fea7339cc3542210a78e3a46d4449f",
+    "semantic_hash": "b4fea7339cc3542210a78e3a46d4449f"
+  },
+  "1.png": {
+    "mtime": 1789319861.8629928,
+    "seen": 1789642195.9870687,
+    "ast_hash": "be9592ab60e73443d8981debc85870b5",
+    "semantic_hash": "be9592ab60e73443d8981debc85870b5"
+  },
+  "avatar-logo.jpg": {
+    "mtime": 1788991397.076686,
+    "seen": 1789642195.9870708,
+    "ast_hash": "a81970272d53e871e1c14ba7c1a7666d",
+    "semantic_hash": "a81970272d53e871e1c14ba7c1a7666d"
+  },
+  "certificate.jpeg": {
+    "mtime": 1788984773.7257738,
+    "seen": 1789642195.9870722,
+    "ast_hash": "8d24c77147af6c141d32e860b6c9b9e7",
+    "semantic_hash": "8d24c77147af6c141d32e860b6c9b9e7"
+  },
+  "certificate.jpg": {
+    "mtime": 1788984773.7257738,
+    "seen": 1789642195.987074,
+    "ast_hash": "8d24c77147af6c141d32e860b6c9b9e7",
+    "semantic_hash": "8d24c77147af6c141d32e860b6c9b9e7"
+  },
+  "design-work..png": {
+    "mtime": 1788985811.9260795,
+    "seen": 1789642195.9870753,
+    "ast_hash": "cd05d900c22ef58b8cb98912a183696d",
+    "semantic_hash": "cd05d900c22ef58b8cb98912a183696d"
+  },
+  "design-work.jpg": {
+    "mtime": 1788985811.9260795,
+    "seen": 1789642195.9870772,
+    "ast_hash": "cd05d900c22ef58b8cb98912a183696d",
+    "semantic_hash": "cd05d900c22ef58b8cb98912a183696d"
+  },
+  "portfolio_ui_ux_showcase_1788991344909.jpg": {
+    "mtime": 1789050059.9194207,
+    "seen": 1789642195.987079,
+    "ast_hash": "cb48d5e55a4b0135fde2c52a817f9681",
+    "semantic_hash": "cb48d5e55a4b0135fde2c52a817f9681"
+  }
+}
